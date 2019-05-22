@@ -1,0 +1,58 @@
+//1
+public static void main(String[] args) {
+	int a = 1; 
+	int b = 2;
+	int c = 3;
+	int d = 4;
+	int e = 5;
+	int sum = a+b+c+d+e;
+	System.out.println(sum);
+
+	
+	int sumAC = a+c;
+	System.out.println(sumAC);
+	
+	
+	System.out.println(d+a);
+	double avg =(double) sum/5;
+	System.out.println(avg);
+	
+	//2
+	String str = "IDAn";
+	char first, last;
+	first = str.charAt(0);
+	last = str.charAt(3);
+	
+	
+	//3
+	String str1 = "idan kal2";
+	int num = Integer.parseInt(str1.substring(8, str1.length()));
+	num = num * 10;
+	System.out.println(str1+num);
+	
+	
+	//4
+	int a1 = 12;
+	int a2 = 15;
+	double b1 = 18.5;
+	double a3 = (a1%10)+(a2%10)+(b1%10);
+	System.out.println(a3);
+	
+	
+	//5
+	String str2 = "idan kalechman";
+	 str2 = str2.substring(5, 14);
+	 System.out.println(str2);
+	
+	//6
+	 String str3 = "Wikipedia";
+	 char c1 = str3.charAt(1);
+	 char c2 = str3.charAt(5);
+	 System.out.println("the second char is " + c1 +", the six char is " + c2);
+	 
+	 
+	 //7
+	 String str4 = "hello";
+	 String str5 = "idan";
+	 System.out.println(str4 + " " + str5);
+	 
